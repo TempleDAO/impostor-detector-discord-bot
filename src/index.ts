@@ -38,7 +38,7 @@ ${target}: id:${target.id} username: '${target.displayName}'`);
 
   if (similars) {
     report.push(`Potential impostor alert:
-${target} "${target.displayName}" ${target.id} (joined at <t:${Math.floor(
+${target} "${target.displayName}" \`${target.id}\` (joined at <t:${Math.floor(
       (target.joinedTimestamp || 0) / 1000
     )}>)
 --- similar to ---
