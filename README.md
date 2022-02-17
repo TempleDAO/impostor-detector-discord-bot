@@ -3,6 +3,8 @@
 **Single guild setup for demonstration purposes/self hosting.**
 
 ## What it does
+
+![Example alert](./assets/example_alert.png)
 Whenever user joins your guild/changes their username 
 
 1) their username is checked against all server usernames
