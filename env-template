@@ -1,4 +1,4 @@
 BOT_TOKEN=
-SUPPORT_BLACKLIST_KEYWORDS='support','admin','help','help desk'
-MONITORED_ROLES='Guardians','Acolytes','Temple Disciples','Temple Initiates','Temple Masters'
-MODERATION_CHANNEL_NAME=moderators
+BLACKLIST_KEYWORDS=support,admin,help,help desk
+MONITORED_ROLES=Guardians,Acolytes,Temple Disciples,Temple Initiates,Temple Masters
+MODERATION_CHANNEL_NAME=guardians-chamber
