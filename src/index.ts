@@ -10,11 +10,7 @@ export async function checkImpostor(target: GuildMember) {
   // Check banned keywords
   const report = [];
   console.log(`checking users with similar username to "${target.displayName}"`);
-  if (
-    BLACKLIST_KEYWORDS.some(w =>
-      target.nickname ? target.displayName.toLowerCase().includes(w) : false
-    )
-  ) {
+  if (BLACKLIST_KEYWORDS.some(w => target.displayName.toLowerCase().includes(w))) {
     report.push(`🚨Suspicious username alert 🚨:
 ${target}: id:${target.id} username: '${target.displayName}'`);
   }
